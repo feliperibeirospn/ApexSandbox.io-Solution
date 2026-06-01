@@ -1,0 +1,13 @@
+public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
+     return (passedExam && passedAssignments) ? true : 
+            (passedExam && passedProject) ? true : 
+           (passedAssignments && passedProject) ? true : false;
+
+            /* return (passedExam && passedAssignments) || 
+            (passedExam && passedProject) ||
+           (passedAssignments && passedProject);
+           também pode ser respondido assim, pq ele mesmo já é uma pergunta
+           então ele já retorna se for verdadeiro, só precisaria colocar algo a frente se fosse 
+           algo diferente de verdadeiro*/
+    
+}
