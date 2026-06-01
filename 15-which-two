@@ -1,0 +1,17 @@
+public String whichTwo(Integer a, Integer b, Integer c) {
+    Integer ab = a+b;
+    Integer bc = b+c;
+    Integer ac = a+c;
+
+    if(ab==c){
+        return 'c';
+    }else if(bc==a){
+        return 'a';
+    }
+    else if(ac==b){
+    return 'b';
+    }else return '';
+    
+    
+ 
+}
