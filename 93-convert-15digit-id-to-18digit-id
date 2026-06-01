@@ -1,0 +1,15 @@
+public String convert15to18DigitId(String fifteenDigit)
+{    try {
+        Id id = fifteenDigit; 
+        return id;
+    } catch (Exception e) {
+        return '-1';
+    }
+}
+
+// Compare a string to an ID of the same length.
+// 15-character ID
+Id idValue15 = '001D000000Ju1zH';
+// 15-character ID string value
+String stringValue15 = '001D000000Ju1zH';
+Boolean result3 = stringValue15.equals(IdValue15);
