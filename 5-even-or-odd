@@ -1,0 +1,7 @@
+public String evenOrOdd(Integer num) {
+     Integer mod = Math.mod(num,2);
+    if(mod==0){
+        return 'even';
+    }else return 'odd';
+    
+}
