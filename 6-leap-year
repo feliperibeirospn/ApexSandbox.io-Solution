@@ -1,0 +1,12 @@
+public Boolean isLeapYear(Integer year) {
+    integer hipotese = math.mod(year,4);
+    integer hipotese2 = math.mod(year,400);
+    integer hipotese3 = math.mod(year,100);
+
+if(hipotese3==0 && hipotese2 ==0){
+    return true;
+}else return false;
+   
+ 
+    //code here
+}
