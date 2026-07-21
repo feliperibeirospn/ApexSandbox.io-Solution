@@ -8,6 +8,8 @@ if(hipotese3==0 && hipotese2 ==0){
 
 }else if(hipotese == 0 && hipotese2==0){
     return true;
+}else if(hipotese ==0 && hipotese3 ==0){
+    return true;
 }
 
 
