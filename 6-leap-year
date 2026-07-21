@@ -6,7 +6,12 @@ public Boolean isLeapYear(Integer year) {
 if(hipotese3==0 && hipotese2 ==0){
     return true;
 
-}else return true;
+}else if(hipotese == 0 && hipotese2==0){
+    return true;
+}
+
+
+else return false;
    
  
     //code here
