@@ -5,7 +5,9 @@ public Boolean isLeapYear(Integer year) {
 
 if(hipotese3==0 && hipotese2 ==0){
     return true;
-}else return false;
+}if else {
+    (hipotese ==0 && hipotese2 ==0);
+}else return true;
    
  
     //code here
